@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include <stdlib.h>
+
 #include <strstream>
 #define JUMP_FORCE 4.8
 #define JUMP_ACC 0.08
@@ -38,9 +38,7 @@ int main()
     sf::Image image[8];
     for (int i = 0; i < 8; ++i)
     {
-        char dgt[2];
-        itoa(i + 1, dgt, 10);
-        String str(dgt);
+        String str = std::to_string(i+1);
         str.insert(str.getSize(), ".png");
         if (!image[i].loadFromFile(String("res/")+str))
             return 1;
