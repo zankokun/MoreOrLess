@@ -1,5 +1,8 @@
 # MoreOrLess
-[![CMake](https://github.com/zankokun/MoreOrLess/actions/workflows/cmake.yml/badge.svg?branch=main)](https://github.com/zankokun/MoreOrLess/actions/workflows/cmake.yml)
+[![Ubuntu build](https://github.com/zankokun/MoreOrLess/actions/workflows/cmake.yml/badge.svg?branch=main)](https://github.com/zankokun/MoreOrLess/actions/workflows/cmake.yml)
+
+[![Windows build](https://github.com/zankokun/MoreOrLess/actions/workflows/win_cmake.yml/badge.svg)](https://github.com/zankokun/MoreOrLess/actions/workflows/win_cmake.yml)
+
 
 The game ^__^
 
