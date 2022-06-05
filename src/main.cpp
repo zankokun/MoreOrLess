@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
-
+#include <stdlib.h>
 #include <strstream>
 #define JUMP_FORCE 4.8
 #define JUMP_ACC 0.08
