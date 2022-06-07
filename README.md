@@ -11,6 +11,13 @@ With some sort of bugs >__>
 
 # How to build
 
+Install:
+
+0. (probably) any C++ compiler on your machine (tested with MSVC,Clang,GCC,MinGW) 
+1. CMake
+
+After that, just:
+
 0. Clone repo
 1. Open repo directory in terminal
 2. And then:
